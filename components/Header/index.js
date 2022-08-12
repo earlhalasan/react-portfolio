@@ -6,7 +6,12 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({
+  handleWorkScroll,
+  handleAboutScroll,
+  isBlog,
+  handleSocialScroll,
+}) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -68,13 +73,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
+                  <Button onClick={handleWorkScroll}>Projects</Button>
+                  {/* <Button onClick={handleSocialScroll}>Socials</Button> */}
                   <Button onClick={handleAboutScroll}>About</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:earl.halasan@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -88,7 +94,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:earl.halasan@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -99,24 +105,27 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         )}
       </Popover>
       <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
+        className={`hidden flex-row items-center justify-between sticky ${
           theme === "light" && "bg-white"
         } dark:text-white top-0 z-10 tablet:flex`}
       >
         <h1
           onClick={() => router.push("/")}
-          className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+          className="font-medium cursor-pointer mob:p-2 laptop:pl-4"
         >
           {name}.
         </h1>
         {!isBlog ? (
           <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
+            <Button onClick={handleWorkScroll}>Projects</Button>
+            {/* <Button onClick={handleSocialScroll}>Socials</Button> */}
             <Button onClick={handleAboutScroll}>About</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button
+              onClick={() => window.open("mailto:earl.halasan@gmail.com")}
+            >
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -136,7 +145,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button
+              onClick={() => window.open("mailto:earl.halasan@gmail.com")}
+            >
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
