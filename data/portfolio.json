@@ -1,1 +1,56 @@
-{"name":"Earl","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Earl Halasan—","headerTaglineThree":"a software developer","headerTaglineFour":" based in Edison, NJ.","showBlog":false,"darkMode":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/earlhalasan"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/earlhalasan/"},{"id":"5","title":"Email","link":"mailto:earl.halasan@gmail.com"}],"projects":[{"id":"1","title":"Aim Trainer","description":"An aim training game built with canvas. Each successful hit increases the target's speed. Test your aim and speed!","imageSrc":"https://i.imgur.com/aVSbtu5.png","url":"https://aim-trainer-livid.vercel.app/"},{"id":"2","title":"Playlistr","description":"A playlist making application built with Node.js and express.","imageSrc":"https://i.imgur.com/8pJ04iz.png","url":"https://playlistrrr.herokuapp.com/"},{"id":"3","title":"ClearSight","description":"Note taking and to-do list application built with React.","imageSrc":"https://raw.githubusercontent.com/earlhalasan/Project-3/main/img/final-homepage.png","url":"https://clearsight-sei.herokuapp.com/"},{"id":"4","title":"MusicSupply","description":"Music equipment buying website with built in 808 drum machine.","imageSrc":"https://camo.githubusercontent.com/2bfeeda0e9d34d6a570986c7a4c6026fe64e0176333b8fc6d12f1048080d97dc/68747470733a2f2f692e696d6775722e636f6d2f5366686a7530472e706e67","url":"https://musicsupply.herokuapp.com/"}],"services":[{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."}],"aboutpara":"A creative, solutions-driven full-stack software engineer with a music-industry and production background. Works well under pressure with an ability to adapt and adjust plans quickly to find efficient and concise solutions for challenging problems."}
+{
+  "name": "Earl",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Earl Halasan—",
+  "headerTaglineThree": "a software developer",
+  "headerTaglineFour": " based in Edison, NJ.",
+  "showBlog": false,
+  "darkMode": true,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/earlhalasan" },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/earlhalasan/"
+    },
+    { "id": "5", "title": "Email", "link": "mailto:earl.halasan@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Aim Trainer",
+      "description": "An aim training game built with canvas. Each successful hit increases the target's speed. Test your aim and speed!",
+      "imageSrc": "https://i.imgur.com/aVSbtu5.png",
+      "url": "https://aim-trainer-livid.vercel.app/"
+    },
+    {
+      "id": "2",
+      "title": "Playlistr",
+      "description": "A playlist making application built with Node.js and express.",
+      "imageSrc": "https://i.imgur.com/8pJ04iz.png",
+      "url": "https://playlistrrr.herokuapp.com/"
+    },
+    {
+      "id": "3",
+      "title": "ClearSight",
+      "description": "Note taking and to-do list application built with React.",
+      "imageSrc": "https://raw.githubusercontent.com/earlhalasan/Project-3/main/img/final-homepage.png",
+      "url": "https://clearsight-sei.herokuapp.com/"
+    },
+    {
+      "id": "4",
+      "title": "EH-808",
+      "description": "Music equipment buying website with built in 808 drum machine.",
+      "imageSrc": "https://camo.githubusercontent.com/2bfeeda0e9d34d6a570986c7a4c6026fe64e0176333b8fc6d12f1048080d97dc/68747470733a2f2f692e696d6775722e636f6d2f5366686a7530472e706e67",
+      "url": "https://musicsupply.herokuapp.com/"
+    }
+  ],
+  "services": [
+    {
+      "id": "3",
+      "title": "Web Design",
+      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+    }
+  ],
+  "aboutpara": "A creative, solutions-driven full-stack software engineer with a music-industry and production background. Works well under pressure with an ability to adapt and adjust plans quickly to find efficient and concise solutions for challenging problems."
+}
