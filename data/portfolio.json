@@ -35,14 +35,14 @@
       "title": "ClearSight",
       "description": "Note taking and to-do list application built with React.",
       "imageSrc": "https://raw.githubusercontent.com/earlhalasan/Project-3/main/img/final-homepage.png",
-      "url": "https://clearsight-sei.herokuapp.com/"
+      "url": "https://clearsight.vercel.app/"
     },
     {
       "id": "4",
       "title": "EH-808",
-      "description": "Music equipment buying website with built in 808 drum machine.",
-      "imageSrc": "https://camo.githubusercontent.com/2bfeeda0e9d34d6a570986c7a4c6026fe64e0176333b8fc6d12f1048080d97dc/68747470733a2f2f692e696d6775722e636f6d2f5366686a7530472e706e67",
-      "url": "https://musicsupply.herokuapp.com/"
+      "description": "808 drum machine built with React.",
+      "imageSrc": "https://i.imgur.com/xZvVwyG.png",
+      "url": "https://earlhalasan.github.io/808excerpt/"
     }
   ],
   "services": [
